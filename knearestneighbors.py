@@ -33,6 +33,4 @@ class KNearestNeighbors():
                     mostClass = key
             fitted.append((point, mostClass))  
         return fitted
-
-    def draw(self, step=1):
         
